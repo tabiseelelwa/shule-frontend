@@ -8,11 +8,11 @@ function App() {
       <form>
         <div className="input">
           <label htmlFor="">Email</label>
-          <input type="text" placeholder="esubetabiseelelwa@gmail.com" />
+          <input type="text" placeholder="Ex: esubetabiseelelwa@gmail.com" />
         </div>
         <div className="input">
           <label htmlFor="">Mot de passe</label>
-          <input type="password" />
+          <input type="password" placeholder="Entrez le mot de passe"/>
         </div>
       </form>
     </div>
