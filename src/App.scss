@@ -1,0 +1,40 @@
+* {
+  font-family: Titillium web;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    h3 {
+      text-align: center;
+    }
+
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      label {
+        font-weight: 600;
+      }
+
+      input {
+        padding: 0.7rem;
+        border: #c5e6fb 2px solid;
+        background-color: #e8ebed;
+        outline: none;
+        border-radius: 0.3rem;
+      }
+    }
+  }
+}
