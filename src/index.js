@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <form>
-        <h3>Login</h3>
         <div className="input">
           <label htmlFor="">Email</label>
           <input type="text" placeholder="esubetabiseelelwa@gmail.com" />
