@@ -13,5 +13,14 @@
     align-items: center;
     color: #fff;
     padding: 0 3rem;
+
+    .userData {
+      .img {
+        height: 100px;
+        width: 100px;
+        border: 2px #fff solid;
+        border-radius: 50%;
+      }
+    }
   }
 }
