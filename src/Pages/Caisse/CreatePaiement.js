@@ -1,7 +1,9 @@
 import React from "react";
 
 const CreatePaiement = () => {
-  return <div>CreatePaiement</div>;
+  return <div>
+    
+  </div>;
 };
 
 export default CreatePaiement;
