@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CreatePaiement = () => {
   return (
@@ -8,7 +9,9 @@ const CreatePaiement = () => {
           <div className="img"></div>
         </div>
         <div className="otherData"></div>
-        <div className="btnAjout"></div>
+        <div className="btnAjout">
+            <Link></Link>
+        </div>
       </div>
     </div>
   );
