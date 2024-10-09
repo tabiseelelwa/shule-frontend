@@ -3,4 +3,15 @@
   padding: 0 5rem;
   width: 100vw;
   height: 100vh;
+
+  .createPaieHead {
+    background-color: #000;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 3rem;
+  }
 }
