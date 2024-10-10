@@ -18,10 +18,12 @@
     border-radius: 1rem;
 
     .userData {
+      border-radius: 50%;
+      border: 2px solid;
       .img {
         height: 100px;
         width: 100px;
-        border: 2px #fff solid;
+        padding: 0.53rem;
         border-radius: 50%;
       }
     }
@@ -41,6 +43,7 @@
 
     .contenu {
       background-color: #fff;
+      border-radius: 1.5rem;
       width: 100%;
     }
   }
