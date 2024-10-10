@@ -20,9 +20,9 @@ const CreatePaiement = () => {
             <h5>CAISSE</h5>
           </div>
           <div className="asideButtons">
-            <div className="button">Paiements</div>
-            <div className="button">Apprenants</div>
-            <div className="button">Profil</div>
+            <div className="button"><Link>Paiements</Link></div>
+            <div className="button"><Link>Apprenants</Link></div>
+            <div className="button"><Link>Profil</Link></div>
             <div className="button">Déconnexion</div>
           </div>
         </div>

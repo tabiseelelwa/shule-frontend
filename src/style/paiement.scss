@@ -57,6 +57,16 @@
           border-bottom: #dbdbdc60 2px solid;
         }
       }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      a:hover {
+        color: #6022f3;
+        transition: 300ms;
+      }
     }
 
     .contenu {
