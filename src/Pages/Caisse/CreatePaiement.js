@@ -16,11 +16,13 @@ const CreatePaiement = () => {
 
       <div className="createPaieBody">
         <div className="aside">
-          <div className="asideTitle">Nouveau paiement</div>
+          <div className="asideTitle">
+            <h5>CAISSE</h5>
+          </div>
           <div className="asideButtons">
-            <div className="button">Tous les Paiements</div>
-            <div className="button">Modifier un paiement</div>
-            <div className="button">Liste de paiements du mois</div>
+            <div className="button">Paiements</div>
+            <div className="button">Apprenants</div>
+            <div className="button">Profil</div>
             <div className="button">Déconnexion</div>
           </div>
         </div>

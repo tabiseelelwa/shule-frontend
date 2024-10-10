@@ -40,6 +40,23 @@
       padding: 1rem;
       border-radius: 0.8rem;
       height: 400px;
+
+      .asideTitle {
+        padding: 0.5rem 0;
+        h5 {
+          background-color: #6022f3;
+          color: #fff;
+          padding: 0.5rem;
+          border-radius: 0.2rem;
+        }
+      }
+
+      .asideButtons {
+        .button {
+          padding: 0.5rem 0 0.5rem 0;
+          border-bottom: #dbdbdc60 2px solid;
+        }
+      }
     }
 
     .contenu {
