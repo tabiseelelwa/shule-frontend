@@ -33,10 +33,15 @@
 
     .aside {
       width: 250px;
-      background-color: #f5f3f9;
+      background-color: #fff;
       padding: 1rem;
-      border-radius: 1.5rem;
-      height: 350px;
+      border-radius: 0.5rem;
+      height: 400px;
+    }
+
+    .contenu {
+      background-color: #fff;
+      width: 100%;
     }
   }
 }

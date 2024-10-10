@@ -24,6 +24,8 @@ const CreatePaiement = () => {
             <div className="button">Déconnexion</div>
           </div>
         </div>
+
+        <div className="contenu"></div>
       </div>
     </div>
   );
