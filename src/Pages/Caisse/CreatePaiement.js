@@ -20,7 +20,7 @@ const CreatePaiement = () => {
           <div className="asideButtons">
             <div className="button">Tous les Paiements</div>
             <div className="button">Modifier un paiement</div>
-            <div className="button"></div>
+            <div className="button">Liste de paiements du mois</div>
             <div className="button"></div>
           </div>
         </div>
