@@ -1,6 +1,7 @@
 .createPaiement {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   padding: 2rem 10rem;
   width: 100vw;
   height: 100vh;
@@ -23,6 +24,19 @@
         border: 2px #fff solid;
         border-radius: 50%;
       }
+    }
+  }
+
+  .createPaieBody {
+    display: flex;
+    gap: 1rem;
+
+    .aside {
+      width: 250px;
+      background-color: #f5f3f9;
+      padding: 1rem;
+      border-radius: 1.5rem;
+      height: 350px;
     }
   }
 }
