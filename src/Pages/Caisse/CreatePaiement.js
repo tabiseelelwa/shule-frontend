@@ -10,7 +10,19 @@ const CreatePaiement = () => {
         </div>
         <div className="otherData"></div>
         <div className="btnAjout">
-            <Link></Link>
+          <Link></Link>
+        </div>
+      </div>
+
+      <div className="createPaieBody">
+        <div className="aside">
+          <div className="asideTitle">Nouveau paiement</div>
+          <div className="asideButtons">
+            <div className="button">Tous les Paiements</div>
+            <div className="button">Modifier un paiement</div>
+            <div className="button"></div>
+            <div className="button"></div>
+          </div>
         </div>
       </div>
     </div>
