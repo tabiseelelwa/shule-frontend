@@ -31,8 +31,11 @@ const CaisseLayout = () => {
             <div className="button">Déconnexion</div>
           </div>
         </div>
+
+        <div className="contenu">
+          <Outlet />
+        </div>
       </div>
-      <Outlet />
     </div>
   );
 };
