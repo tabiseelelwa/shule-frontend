@@ -2,7 +2,7 @@ import React from "react";
 
 const CreatePaiement = () => {
   return (
-    <div className="contenu">
+    <div>
       <p>CreatePAiement</p>
     </div>
   );
