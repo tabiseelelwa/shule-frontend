@@ -9,12 +9,18 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "/creat-paie",
-    element: <CreatePaiement />,
-  },
-  {
-    path: "/create-apprenant",
-    element: <CreateApprenant />,
+    path: "/caisse",
+    element: <Login />,
+    children: [
+      {
+        path: "creat-paie",
+        element: <CreatePaiement />,
+      },
+      {
+        path: "/create-apprenant",
+        element: <CreateApprenant />,
+      },
+    ],
   },
 ]);
 
