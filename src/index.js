@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.scss";
 import "./style/paiement.scss";
 import "./style/caisse.scss";
+import "./style/introuvable.scss";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
