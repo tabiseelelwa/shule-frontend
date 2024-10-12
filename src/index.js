@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.scss";
 import "./style/paiement.scss";
+import "./style/caisse.scss";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
