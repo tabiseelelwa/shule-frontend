@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./Pages/Login";
 import CaisseLayout from "./layout/CaisseLayout";
 import Profil from "./Pages/Caisse/profil";
+import Introuvable from "./introuvable";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -12,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Login />,
+    element: <Introuvable/> ,
   },
   {
     path: "/connexion",
