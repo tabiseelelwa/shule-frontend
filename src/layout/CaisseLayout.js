@@ -20,13 +20,14 @@ const CaisseLayout = () => {
           </div>
           <div className="asideButtons">
             <div className="button">
-              <Link>Apprenants</Link>
+              <Link to="">Apprenants</Link>
             </div>
             <div className="button">
-              <Link>Paiements</Link>
+              <Link to="paiement">Paiements</Link>
             </div>
+
             <div className="button">
-              <Link>Profil</Link>
+              <Link to="profil">Profil</Link>
             </div>
             <div className="button">Déconnexion</div>
           </div>

@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Login from "./Pages/Login";
 import CaisseLayout from "./layout/CaisseLayout";
+import Profil from "./Pages/Caisse/profil";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,12 +15,16 @@ const router = createBrowserRouter([
     element: <CaisseLayout />,
     children: [
       {
-        path: "creat-paie",
+        path: "",
+        element: <CreateApprenant />,
+      },
+      {
+        path: "paiement",
         element: <CreatePaiement />,
       },
       {
-        path: "create-apprenant",
-        element: <CreateApprenant />,
+        path: "profil",
+        element: <Profil />,
       },
     ],
   },
