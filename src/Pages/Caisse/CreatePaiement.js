@@ -5,7 +5,7 @@ const CreatePaiement = () => {
   return (
     <div className="paiement">
       <div className="head">
-        <div className="titre">PAIEMENT</div>
+        <div className="titre">LES PAIEMENTS</div>
         <div className="filtre">
           <select name="" id="">
             <option value="">Tous</option>
@@ -23,8 +23,7 @@ const CreatePaiement = () => {
         <thead>
           <tr>
             <th>Date</th>
-            <th>Nom</th>
-            <th>Prénom</th>
+            <th>Apprenant</th>
             <th>Montant</th>
             <th>Motif</th>
             <th></th>
@@ -33,8 +32,7 @@ const CreatePaiement = () => {
         <tbody>
           <tr>
             <td>12/10/2024</td>
-            <td>TABISEELELWA</td>
-            <td>Léon</td>
+            <td>TABISEELELWA ESUBE Léon</td>
             <td>350</td>
             <td>Inscription</td>
             <td>
@@ -44,9 +42,8 @@ const CreatePaiement = () => {
           </tr>
           <tr>
             <td>12/10/2024</td>
-            <td>TABISEELELWA</td>
-            <td>Léon</td>
-            <td>150</td>
+            <td>TABISEELELWA ESUBE Léon</td>
+            <td >150</td>
             <td>Minerval 1ère Tr.</td>
             <td>
               <FaEdit style={{ color: "blue" }} />
@@ -55,8 +52,17 @@ const CreatePaiement = () => {
           </tr>
           <tr>
             <td>12/10/2024</td>
-            <td>TABISEELELWA</td>
-            <td>Léon</td>
+            <td>TABISEELELWA ESUBE Léon</td>
+            <td >150</td>
+            <td>Minerval 2ème Tr.</td>
+            <td>
+              <FaEdit style={{ color: "blue" }} />
+              <FaTrash style={{ color: "red" }} />
+            </td>
+          </tr>
+          <tr>
+            <td>12/10/2024</td>
+            <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
@@ -66,19 +72,7 @@ const CreatePaiement = () => {
           </tr>
           <tr>
             <td>12/10/2024</td>
-            <td>TABISEELELWA</td>
-            <td>Léon</td>
-            <td>150</td>
-            <td>Minerval 2ème Tr.</td>
-            <td>
-              <FaEdit style={{ color: "blue" }} />
-              <FaTrash style={{ color: "red" }} />
-            </td>
-          </tr>
-          <tr>
-            <td>12/10/2024</td>
-            <td>TABISEELELWA</td>
-            <td>Léon</td>
+            <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>

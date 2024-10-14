@@ -6,7 +6,7 @@
 
   .titre {
     background-color: #e2e3e4;
-    padding: 0.3rem;
+    padding: 0.3rem 0.7rem;
     border-radius: 0.3rem;
   }
 
@@ -18,6 +18,23 @@
       width: 150px;
       padding: 0.2rem;
       border-radius: 0.3rem;
+    }
+  }
+
+  .btnAjout {
+    a {
+      text-decoration: none;
+      background-color: #0a62d5;
+      color: #fff;
+      padding: 0.4rem 0.6rem;
+      border-radius: 0.3rem;
+      border: 2px #0a62d5 solid;
+    }
+
+    a:hover {
+      background-color: transparent;
+      color: #0a62d5;
+      transition: 300ms;
     }
   }
 }
