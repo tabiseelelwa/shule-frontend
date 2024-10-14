@@ -2,7 +2,7 @@ import { FaEdit, FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const ListPamient = () => {
   return (
-    <div className="paiement">
+    <div className="listPaiement">
       <div className="head">
         <div className="titre">LES PAIEMENTS</div>
         <div className="filtre">

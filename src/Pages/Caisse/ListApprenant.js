@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const ListApprenant = () => {
   return (
-    <div className="paiement">
+    <div className="listAppr">
       <div className="head">
-        <div className="titre">LES PAIEMENTS</div>
+        <div className="titre">LES APPRENANTS</div>
         <div className="filtre">
           <select name="" id="">
             <option value="">Tous</option>
@@ -23,18 +23,20 @@ const ListApprenant = () => {
         <thead>
           <tr>
             <th>Date</th>
-            <th>Apprenant</th>
-            <th>Montant</th>
-            <th>Motif</th>
+            <th>Nom</th>
+            <th>Postnom</th>
+            <th>Prénom</th>
+            <th>Téléphone</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>12/10/2024</td>
-            <td>TABISEELELWA ESUBE Léon</td>
-            <td>350</td>
-            <td>Inscription</td>
+            <td>TABISEELELWA</td>
+            <td>ESUBE</td>
+            <td>Léon</td>
+            <td>+243 822 077 545</td>
             <td>
               <FaEdit style={{ color: "blue" }} />
               <FaTrash style={{ color: "red" }} />
