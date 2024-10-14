@@ -1,10 +1,36 @@
 import React from "react";
 import { FaEdit, FaTrash } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const CreatePaiement = () => {
   return (
-    <div>
+    <div className="paiement">
       <div className="head">
-        
+        <div className="titre">PAIEMENT</div>
+        <div className="filtre">
+          <div>
+            <label htmlFor="">Tous</label>
+            <select name="" id=""></select>
+          </div>
+          <div>
+            <label htmlFor="">Paiements classe</label>
+            <select name="" id=""></select>
+          </div>
+          <div>
+            <label htmlFor="">Paiements section</label>
+            <select name="" id=""></select>
+          </div>
+          <div>
+            <label htmlFor="">Paiements élève</label>
+            <select name="" id=""></select>
+          </div>
+          <div>
+            <label htmlFor="">Paiements agent</label>
+            <select name="" id=""></select>
+          </div>
+        </div>
+        <div className="btnAjout">
+          <Link>Nouveau paiement</Link>
+        </div>
       </div>
       <table className="table table-striped">
         <thead>
