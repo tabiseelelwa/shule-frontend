@@ -7,26 +7,14 @@ const CreatePaiement = () => {
       <div className="head">
         <div className="titre">PAIEMENT</div>
         <div className="filtre">
-          <div>
-            <label htmlFor="">Tous</label>
-            <select name="" id=""></select>
-          </div>
-          <div>
-            <label htmlFor="">Paiements classe</label>
-            <select name="" id=""></select>
-          </div>
-          <div>
-            <label htmlFor="">Paiements section</label>
-            <select name="" id=""></select>
-          </div>
-          <div>
-            <label htmlFor="">Paiements élève</label>
-            <select name="" id=""></select>
-          </div>
-          <div>
-            <label htmlFor="">Paiements agent</label>
-            <select name="" id=""></select>
-          </div>
+          <label htmlFor="">Paiement par</label>
+          <select name="" id="">
+            <option value="">Tous</option>
+            <option value="">Classe</option>
+            <option value="">Section</option>
+            <option value="">Elève</option>
+            <option value="">Agent</option>
+          </select>
         </div>
         <div className="btnAjout">
           <Link>Nouveau paiement</Link>

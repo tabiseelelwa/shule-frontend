@@ -3,5 +3,14 @@
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
+
+    .filtre {
+      display: inline-flex;
+      gap: 1.5rem;
+
+      select {
+        border: 1px #000 solid;
+      }
+    }
   }
 }
