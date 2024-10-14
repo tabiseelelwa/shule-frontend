@@ -1,6 +1,7 @@
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
-const ListPamient = () => {
+
+const ListApprenant = () => {
   return (
     <div className="paiement">
       <div className="head">
@@ -42,7 +43,7 @@ const ListPamient = () => {
           <tr>
             <td>12/10/2024</td>
             <td>TABISEELELWA ESUBE Léon</td>
-            <td >150</td>
+            <td>150</td>
             <td>Minerval 1ère Tr.</td>
             <td>
               <FaEdit style={{ color: "blue" }} />
@@ -52,7 +53,7 @@ const ListPamient = () => {
           <tr>
             <td>12/10/2024</td>
             <td>TABISEELELWA ESUBE Léon</td>
-            <td >150</td>
+            <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
               <FaEdit style={{ color: "blue" }} />
@@ -85,4 +86,4 @@ const ListPamient = () => {
   );
 };
 
-export default ListPamient;
+export default ListApprenant;

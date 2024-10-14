@@ -7,6 +7,7 @@ import CaisseLayout from "./layout/CaisseLayout";
 import Profil from "./Pages/Caisse/profil";
 import Introuvable from "./introuvable";
 import ListPamient from "./Pages/Caisse/ListPaiement";
+import ListApprenant from "./Pages/Caisse/ListApprenant";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
+        element: <ListApprenant />,
+      },
+      {
+        path: "nouv-appre",
         element: <CreateApprenant />,
       },
       {
