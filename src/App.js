@@ -6,6 +6,7 @@ import Login from "./Pages/Login";
 import CaisseLayout from "./layout/CaisseLayout";
 import Profil from "./Pages/Caisse/profil";
 import Introuvable from "./introuvable";
+import ListPamient from "./Pages/Caisse/ListPaiement";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Introuvable/> ,
+    element: <Introuvable />,
   },
   {
     path: "/connexion",
@@ -29,8 +30,12 @@ const router = createBrowserRouter([
         element: <CreateApprenant />,
       },
       {
-        path: "paiement",
+        path: "nouv-paiement",
         element: <CreatePaiement />,
+      },
+      {
+        path: "paiements",
+        element: <ListPamient />,
       },
       {
         path: "profil",
