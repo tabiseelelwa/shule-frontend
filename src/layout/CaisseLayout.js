@@ -9,9 +9,6 @@ const CaisseLayout = () => {
           <div className="img"></div>
         </div>
         <div className="otherData">TABISEELELWA</div>
-        <div className="btnAjout">
-          <Link>Ajouter</Link>
-        </div>
       </div>
       <div className="caisseBody">
         <div className="aside">
