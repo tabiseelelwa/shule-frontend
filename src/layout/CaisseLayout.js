@@ -8,9 +8,9 @@ const CaisseLayout = () => {
         <div className="userData">
           <div className="img"></div>
         </div>
-        <div className="otherData"></div>
+        <div className="otherData">TABISEELELWA</div>
         <div className="btnAjout">
-          <Link></Link>
+          <Link>Ajouter</Link>
         </div>
       </div>
       <div className="caisseBody">

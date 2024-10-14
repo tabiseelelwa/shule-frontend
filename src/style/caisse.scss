@@ -28,6 +28,23 @@
         border-radius: 50%;
       }
     }
+
+    .btnAjout {
+      a {
+        text-decoration: none;
+        color: #6022f3;
+        background-color: #fff;
+        padding: 0.3rem 0.6rem;
+        border-radius: 0.3rem;
+        border: 2px #fff solid;
+      }
+
+      a:hover {
+        background-color: transparent;
+        color: #fff;
+        transition: 350ms;
+      }
+    }
   }
 
   .caisseBody {
