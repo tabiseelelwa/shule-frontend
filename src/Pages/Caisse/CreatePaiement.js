@@ -7,7 +7,6 @@ const CreatePaiement = () => {
       <div className="head">
         <div className="titre">PAIEMENT</div>
         <div className="filtre">
-          <label htmlFor="">Paiement par</label>
           <select name="" id="">
             <option value="">Tous</option>
             <option value="">Classe</option>

@@ -1,16 +1,23 @@
-.paiement {
-  .head {
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
+.head {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
 
-    .filtre {
-      display: inline-flex;
-      gap: 1.5rem;
+  .titre {
+    background-color: #e2e3e4;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+  }
 
-      select {
-        border: 1px #000 solid;
-      }
+  .filtre {
+    select {
+      border: 2px #0a62d5 solid;
+      color: #0a62d5;
+      outline: none;
+      width: 150px;
+      padding: 0.2rem;
+      border-radius: 0.3rem;
     }
   }
 }
