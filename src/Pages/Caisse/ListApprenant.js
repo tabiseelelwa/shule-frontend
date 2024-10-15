@@ -94,6 +94,11 @@ const ListApprenant = () => {
           </tr>
         </tbody>
       </table>
+      <div className="btnCtrl">
+        <button className="btnPrecedent"></button>
+        <p className="pageActive"></p>
+        <button className="btnSuivant"></button>
+      </div>
     </div>
   );
 };
