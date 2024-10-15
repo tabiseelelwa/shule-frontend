@@ -7,7 +7,7 @@ const ListPamient = () => {
         <div className="titre">LES PAIEMENTS</div>
         <div className="filtre">
           <select name="" id="">
-            <option value="">Tous</option>
+            <option value="">Tous les paiements</option>
             <option value="">Classe</option>
             <option value="">Section</option>
             <option value="">Elève</option>
@@ -18,7 +18,7 @@ const ListPamient = () => {
           <Link to="/caisse/nouv-paiement">Nouveau paiement</Link>
         </div>
       </div>
-      <table className="table table-striped">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th>Date</th>
@@ -42,7 +42,7 @@ const ListPamient = () => {
           <tr>
             <td>12/10/2024</td>
             <td>TABISEELELWA ESUBE Léon</td>
-            <td >150</td>
+            <td>150</td>
             <td>Minerval 1ère Tr.</td>
             <td>
               <FaEdit style={{ color: "blue" }} />
@@ -52,7 +52,7 @@ const ListPamient = () => {
           <tr>
             <td>12/10/2024</td>
             <td>TABISEELELWA ESUBE Léon</td>
-            <td >150</td>
+            <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
               <FaEdit style={{ color: "blue" }} />

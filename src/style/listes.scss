@@ -1,0 +1,41 @@
+.head {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+  align-items: center;
+
+  .titre {
+    background-color: #f1f1f1;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.3rem;
+  }
+
+  .filtre {
+    select {
+      border: 2px transparent solid;
+      color: #0a62d5;
+      outline: none;
+      width: 200px;
+      padding: 0.2rem;
+      border-radius: 0.3rem;
+    }
+  }
+
+  .btnAjout {
+    a {
+      text-decoration: none;
+      background-color: #0a62d5;
+      color: #fff;
+      padding: 0.4rem 0.6rem;
+      border-radius: 0.3rem;
+      border: 2px #0a62d5 solid;
+    }
+
+    a:hover {
+      background-color: transparent;
+      color: #0a62d5;
+      transition: 300ms;
+    }
+  }
+}

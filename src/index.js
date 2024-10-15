@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.scss";
-import "./style/paiement.scss";
-import "./style/listapprenant.scss";
+import "./style/listes.scss";
 import "./style/caisse.scss";
 import "./style/introuvable.scss";
 import App from "./App";
