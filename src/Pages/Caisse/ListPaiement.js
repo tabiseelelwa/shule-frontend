@@ -81,6 +81,11 @@ const ListPamient = () => {
           </tr>
         </tbody>
       </table>
+      <div className="btnCtrl">
+        <p className="btnPrecedent">Précédent</p>
+        <p className="pageActive">2</p>
+        <p className="btnSuivant">Suivant</p>
+      </div>
     </div>
   );
 };

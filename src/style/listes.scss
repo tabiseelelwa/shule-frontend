@@ -2,7 +2,7 @@
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   align-items: center;
 
   .titre {
@@ -47,9 +47,10 @@
   gap: 1rem;
   align-items: center;
 
-  button {
-    padding: 0.3rem 0.5rem;
+  .btnPrecedent,
+  .btnSuivant {
     color: #0a62d5;
     border: transparent;
+    cursor: pointer;
   }
 }
