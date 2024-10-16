@@ -49,8 +49,20 @@
 
   .btnPrecedent,
   .btnSuivant {
-    color: #0a62d5;
+    color: #4690f2;
+    font-weight: 600;
     border: transparent;
-    cursor: pointer;
+    cursor: default;
+  }
+
+  .btnPrecedent:hover,
+  .btnSuivant:hover {
+    color: #0953b5;
+    transition: 300ms;
+  }
+
+  .pageActive {
+    color: #d50a0a;
+    font-weight: 500;
   }
 }
