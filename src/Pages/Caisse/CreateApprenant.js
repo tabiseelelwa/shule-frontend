@@ -7,15 +7,15 @@ const CreateApprenant = () => {
         <p>CREATION ELEVE</p>
       </div>
       <form>
-        <input type="text" placeholder="Nom de l'élève" />
-        <input type="text" placeholder="Postnom de l'élève" />
-        <input type="text" placeholder="Prénom de l'élève" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
         <select name="">
           <option>Choisir le sexe</option>
           <option value="Masculin">Masculin</option>
           <option value="Féminin">Féminin</option>
         </select>
-        <input type="text" placeholder="Adresse de résidence" />
+        <input type="text" />
         <select name="" id="">
           <option>Choisir la section</option>
           <option value="">Scientifique</option>
@@ -30,8 +30,8 @@ const CreateApprenant = () => {
           <option value="">2ème B</option>
           <option value="">2ème C</option>
         </select>
-        <input type="text" placeholder="Email" />
-        <input type="text" placeholder="Téléphone" />
+        <input type="text" />
+        <input type="text" />
       </form>
     </div>
   );
