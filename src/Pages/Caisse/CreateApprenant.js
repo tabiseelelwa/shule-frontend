@@ -2,7 +2,7 @@ import React from "react";
 
 const CreateApprenant = () => {
   return (
-    <div>
+    <div className="formulaire">
       <div className="formHead">
         <p>CREATION ELEVE</p>
       </div>
@@ -30,7 +30,8 @@ const CreateApprenant = () => {
           <option value="">2ème B</option>
           <option value="">2ème C</option>
         </select>
-        <input type="text" placeholder="" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Téléphone" />
       </form>
     </div>
   );

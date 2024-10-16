@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.scss";
 import "./style/listes.scss";
 import "./style/caisse.scss";
+import "./style/formulaire.scss";
 import "./style/introuvable.scss";
 import App from "./App";
 
