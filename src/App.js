@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         element: <ListApprenant />,
       },
       {
-        path: "nouv-appre",
+        path: "nouv-appr",
         element: <CreateApprenant />,
       },
       {

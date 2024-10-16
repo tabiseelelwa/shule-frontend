@@ -16,7 +16,7 @@ const ListApprenant = () => {
           </select>
         </div>
         <div className="btnAjout">
-          <Link to="/caisse/nouv-paiement">Ajouter un apprenant</Link>
+          <Link to="/caisse/nouv-appr">Ajouter un apprenant</Link>
         </div>
       </div>
       <table className="table table-bordered">
