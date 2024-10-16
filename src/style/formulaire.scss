@@ -24,8 +24,9 @@
 
       input,
       select {
-        border: 1px #c8c7c7 solid;
-        padding: 0.3rem;
+        border: 2px #e8e8e8 solid;
+        border-radius: 0.2rem;
+        padding: 0.2rem 0.4rem;
         outline: none;
       }
 
@@ -34,7 +35,7 @@
         font-size: 14px;
         background-color: #166ce3;
         color: #fff;
-        padding: 0.5rem;
+        padding: 0.4rem;
       }
 
       button:hover {
