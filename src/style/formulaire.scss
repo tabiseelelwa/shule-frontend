@@ -1,32 +1,46 @@
 .formulaire {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-
   .formHead {
     display: flex;
     justify-content: flex-start;
 
     p {
-      text-align: left;
+      font-weight: 600;
+      background-color: #ececec;
+      padding: 0.3rem;
+      border-radius: 0.2rem;
     }
   }
 
-  form {
+  .formBody {
     display: flex;
-    flex-direction: column;
-    width: 500px;
-    gap: 0.5rem;
+    justify-content: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      gap: 0.5rem;
 
-    input,
-    select {
-      border: 1px #0a62d5 solid;
-      font-size: 14px;
-      padding: 0.1rem;
-      outline: none;
+      input,
+      select {
+        border: 1px #c8c7c7 solid;
+        font-size: 14px;
+        padding: 0.2rem;
+        outline: none;
+      }
+
+      button {
+        border: 1px #166ce3 solid;
+        font-size: 14px;
+        background-color: #166ce3;
+        color: #fff;
+        padding: 0.5rem;
+      }
+
+      button:hover {
+        background-color: transparent;
+        color: #166ce3;
+        transition: 300ms;
+      }
     }
   }
 }
