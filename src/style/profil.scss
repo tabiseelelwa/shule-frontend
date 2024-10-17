@@ -10,7 +10,11 @@
   }
 
   .details {
+    .nomAgent {
+      border-bottom: 2px #ccc solid;
+    }
     .email {
+      margin-top: 1rem;
       font-weight: 600;
     }
 
