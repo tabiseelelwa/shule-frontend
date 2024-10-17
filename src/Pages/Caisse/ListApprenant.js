@@ -40,7 +40,7 @@ const ListApprenant = () => {
             <td>15/03/2023</td>
             <td>+243 822 077 545</td>
             <td>
-              <Link to="modif-paie">
+              <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -54,7 +54,7 @@ const ListApprenant = () => {
             <td>25/03/2023</td>
             <td>+243 978 024 163</td>
             <td>
-              <Link to="modif-paie">
+              <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -68,7 +68,7 @@ const ListApprenant = () => {
             <td>04/04/2023</td>
             <td>+243 853 664 055</td>
             <td>
-              <Link to="modif-paie">
+              <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -82,7 +82,7 @@ const ListApprenant = () => {
             <td>12/09/2024</td>
             <td>+243 999 154 397</td>
             <td>
-              <Link to="modif-paie">
+              <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -96,7 +96,7 @@ const ListApprenant = () => {
             <td>16/10/2024</td>
             <td>+243 999 913 512</td>
             <td>
-              <Link to="modif-paie">
+              <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />

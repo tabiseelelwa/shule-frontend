@@ -11,8 +11,6 @@ import ListApprenant from "./Pages/Caisse/ListApprenant";
 import ModifEleve from "./Pages/Caisse/ModifEleve";
 import ModifPaiement from "./Pages/Caisse/ModifPaiement";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -47,11 +45,11 @@ const router = createBrowserRouter([
         element: <ListPamient />,
       },
       {
-        path: "modif-paie",
+        path: "modif-paie/:idPaie",
         element: <ModifPaiement />,
       },
       {
-        path: "modif-apprenant",
+        path: "modif-apprenant/:idApprennant",
         element: <ModifEleve />,
       },
       {

@@ -35,7 +35,9 @@ const ListPamient = () => {
             <td>350</td>
             <td>Inscription</td>
             <td>
-              <FaEdit style={{ color: "blue" }} />
+              <Link to="/caisse/modif-paie/idPaie">
+                <FaEdit style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
@@ -45,7 +47,9 @@ const ListPamient = () => {
             <td>150</td>
             <td>Minerval 1ère Tr.</td>
             <td>
-              <FaEdit style={{ color: "blue" }} />
+              <Link to="/caisse/modif-paie/idPaie">
+                <FaEdit style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
@@ -55,7 +59,9 @@ const ListPamient = () => {
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
-              <FaEdit style={{ color: "blue" }} />
+              <Link to="/caisse/modif-paie/idPaie">
+                <FaEdit style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
@@ -65,7 +71,9 @@ const ListPamient = () => {
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
-              <FaEdit style={{ color: "blue" }} />
+              <Link to="/caisse/modif-paie/idPaie">
+                <FaEdit style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
@@ -75,7 +83,9 @@ const ListPamient = () => {
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
             <td>
-              <FaEdit style={{ color: "blue" }} />
+              <Link to="/caisse/modif-paie/idPaie">
+                <FaEdit style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
