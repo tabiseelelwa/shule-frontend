@@ -6,6 +6,7 @@ import "./style/App.scss";
 import "./style/listes.scss";
 import "./style/caisse.scss";
 import "./style/formulaire.scss";
+import "./style/profil.scss";
 import "./style/introuvable.scss";
 import App from "./App";
 

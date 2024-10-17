@@ -6,6 +6,8 @@ const Profil = () => {
       <div className="img">
         <img src={image} alt="" />
       </div>
+
+      
     </div>
   );
 };
