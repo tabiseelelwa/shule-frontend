@@ -12,7 +12,7 @@ const Profil = () => {
       <div className="details">
         <div className="detailsAgent">
           <div className="nomAgent">
-            <h3>TABISEELELWA ESUBE Léon</h3>
+            <h4>TABISEELELWA ESUBE Léon</h4>
           </div>
           <div className="email">esubetabiseelelwa@gmail.com</div>
           <div className="tel">+243 822 077 545</div>
