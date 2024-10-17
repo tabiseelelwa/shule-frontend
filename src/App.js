@@ -8,6 +8,10 @@ import Profil from "./Pages/Caisse/profil";
 import Introuvable from "./introuvable";
 import ListPamient from "./Pages/Caisse/ListPaiement";
 import ListApprenant from "./Pages/Caisse/ListApprenant";
+import ModifEleve from "./Pages/Caisse/ModifEleve";
+import ModifPaiement from "./Pages/Caisse/ModifPaiement";
+
+
 
 const router = createBrowserRouter([
   {
@@ -41,6 +45,14 @@ const router = createBrowserRouter([
       {
         path: "paiements",
         element: <ListPamient />,
+      },
+      {
+        path: "modif-paie",
+        element: <ModifPaiement />,
+      },
+      {
+        path: "modif-apprenant",
+        element: <ModifEleve />,
       },
       {
         path: "profil",

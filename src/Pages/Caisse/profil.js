@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image from "./profil/image.jpg";
+import image from "./images/image.jpg";
 import { FaEdit } from "react-icons/fa";
 const Profil = () => {
   return (

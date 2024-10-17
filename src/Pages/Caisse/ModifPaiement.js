@@ -22,7 +22,7 @@ const ModifPaiement = () => {
             <option value="Féminin">Frais admin</option>
             <option value="Féminin">Frais techniques</option>
           </select>
-          <input type="number" placeholder="Montant payé" />
+          <input type="number" placeholder="Montant payé" value={300} />
           <button>Effectuer</button>
         </form>
       </div>
