@@ -1,9 +1,27 @@
 .profil {
+  display: flex;
+  gap: 2rem;
   .img {
     img {
       height: 360px;
       width: 300px;
       border-radius: 1.5rem;
+    }
+  }
+
+  .details {
+    .email {
+      font-weight: 600;
+    }
+    .btn {
+      background-color: #0088ff;
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    .btn:hover {
+      background-color: #036ecc;
+      transition: 300ms;
     }
   }
 }
