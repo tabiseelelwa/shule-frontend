@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image from "./profil/image.jpg";
 import { FaEdit } from "react-icons/fa";
 const Profil = () => {
@@ -23,9 +24,9 @@ const Profil = () => {
           </div>
         </div>
 
-        <div className="btn">
+        <Link to="">
           <FaEdit /> <span>Modifier le profil</span>
-        </div>
+        </Link>
       </div>
     </div>
   );
