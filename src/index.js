@@ -7,6 +7,7 @@ import "./style/listes.scss";
 import "./style/caisse.scss";
 import "./style/formulaire.scss";
 import "./style/profil.scss";
+import "./style/modifProfil.scss";
 import "./style/introuvable.scss";
 import App from "./App";
 

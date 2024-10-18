@@ -1,0 +1,39 @@
+.modifProfil {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+
+    input.nom {
+      font-size: 23px;
+      font-weight: 600;
+    }
+
+    input {
+      border: none;
+      border-bottom: 2px #dadada solid;
+      outline: none;
+    }
+
+    textarea {
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: justify;
+    }
+
+    button {
+      background-color: #2261f3;
+      color: #fff;
+      border: #2261f3 1px solid;
+      padding: 0.3rem;
+    }
+
+    button:hover {
+      background-color: #052d88;
+      border: #052d88 1px solid;
+      transition: 300ms;
+    }
+  }
+}

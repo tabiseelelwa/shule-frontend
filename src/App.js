@@ -10,6 +10,8 @@ import ListPamient from "./Pages/Caisse/ListPaiement";
 import ListApprenant from "./Pages/Caisse/ListApprenant";
 import ModifEleve from "./Pages/Caisse/ModifEleve";
 import ModifPaiement from "./Pages/Caisse/ModifPaiement";
+import DetailsProfil from "./Pages/Caisse/DetailsProfil";
+import ModifProfil from "./Pages/Caisse/ModifProfil";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: "profil",
         element: <Profil />,
+        children: [
+          { path: "", element: <DetailsProfil /> },
+          { path: "modif-profil", element: <ModifProfil /> },
+        ],
       },
     ],
   },
