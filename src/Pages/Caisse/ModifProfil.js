@@ -17,7 +17,7 @@ const ModifProfil = () => {
             id=""
             rows={4}
             value={
-              "lLorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minus voluptate inventore. Maiores molestias voluptatum vero dolorum nulla perspiciatis tempore enim incidunt officiis minus, labore amet ex, nostrum ut voluptatibus? "
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minus voluptate inventore. Maiores molestias voluptatum vero dolorum nulla perspiciatis tempore enim incidunt officiis minus, labore amet ex, nostrum ut voluptatibus?"
             }
           ></textarea>
           <button>Modifier</button>
