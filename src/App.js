@@ -1,31 +1,40 @@
 import CreatePaiement from "./Pages/Caisse/CreatePaiement";
-import CreateApprenant from "./Pages/Caisse/CreateApprenant";
+import CreateApprenant from "./Pages/Inscription/CreateApprenant";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Login from "./Pages/Login";
 import CaisseLayout from "./layout/CaisseLayout";
+import InscriptLayout from "./layout/InscriptLayout";
 import Profil from "./Pages/Caisse/profil";
 import Introuvable from "./introuvable";
 import ListPamient from "./Pages/Caisse/ListPaiement";
-import ListApprenant from "./Pages/Caisse/ListApprenant";
-import ModifEleve from "./Pages/Caisse/ModifEleve";
+import ListApprenant from "./Pages/Inscription/ListApprenant";
+import ModifEleve from "./Pages/Inscription/ModifEleve";
 import ModifPaiement from "./Pages/Caisse/ModifPaiement";
 import DetailsProfil from "./Pages/Caisse/DetailsProfil";
 import ModifProfil from "./Pages/Caisse/ModifProfil";
+import ListInscription from "./Pages/Inscription/ListInscription";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login />,
+    element: <InscriptLayout />,
+    children: [
+      {
+        path: "",
+        element: <ListInscription />,
+      },
+      {
+        path: "nouv-appr",
+        element: <CreateApprenant />,
+      },
+      {
+        path: "modif-apprenant/:idApprennant",
+        element: <ModifEleve />,
+      },
+    ],
   },
-  {
-    path: "*",
-    element: <Introuvable />,
-  },
-  {
-    path: "/connexion",
-    element: <Login />,
-  },
+
   {
     path: "/caisse",
     element: <CaisseLayout />,
@@ -33,10 +42,6 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <ListApprenant />,
-      },
-      {
-        path: "nouv-appr",
-        element: <CreateApprenant />,
       },
       {
         path: "nouv-paiement",
@@ -50,10 +55,7 @@ const router = createBrowserRouter([
         path: "modif-paie/:idPaie",
         element: <ModifPaiement />,
       },
-      {
-        path: "modif-apprenant/:idApprennant",
-        element: <ModifEleve />,
-      },
+
       {
         path: "profil",
         element: <Profil />,
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
         ],
       },
     ],
+  },
+  {
+    path: "*",
+    element: <Introuvable />,
+  },
+  {
+    path: "/connexion",
+    element: <Login />,
   },
 ]);
 
