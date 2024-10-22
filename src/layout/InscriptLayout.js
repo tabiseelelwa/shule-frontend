@@ -17,7 +17,10 @@ const InscriptLayout = () => {
           </div>
           <div className="asideButtons">
             <div className="button">
-              <Link to="">Apprenants</Link>
+              <Link to="">Inscriptions</Link>
+            </div>
+            <div className="button">
+              <Link to="apprenants">Apprenants</Link>
             </div>
 
             <div className="button">

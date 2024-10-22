@@ -22,6 +22,36 @@
     }
   }
 
+  // Pour le layout INSCRIPTION
+  .filtreInscript {
+    select {
+      border: 1px #03236d solid;
+      color: #03236d;
+      outline: none;
+      width: 200px;
+      padding: 0.2rem;
+      border-radius: 0.3rem;
+    }
+  }
+
+  .btnAjoutInscript {
+    a {
+      text-decoration: none;
+      background-color: #03236d;
+      color: #fff;
+      padding: 0.4rem 0.6rem;
+      border-radius: 0.3rem;
+      border: 1px #03236d solid;
+    }
+
+    a:hover {
+      background-color: transparent;
+      color: #03236d;
+      transition: 300ms;
+    }
+  }
+
+  // Pour le layout CAISSE
   .btnAjout {
     a {
       text-decoration: none;
@@ -58,6 +88,32 @@
   .btnPrecedent:hover,
   .btnSuivant:hover {
     color: #0953b5;
+    transition: 300ms;
+  }
+
+  .pageActive {
+    color: #d50a0a;
+    font-weight: 500;
+  }
+}
+.btnCtrlInscript {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
+
+  .btnPrecedent,
+  .btnSuivant {
+    color: #03236d;
+    font-weight: 600;
+    border: transparent;
+    cursor: default;
+  }
+
+  .btnPrecedent:hover,
+  .btnSuivant:hover {
+    color: #1c4fc5;
     transition: 300ms;
   }
 

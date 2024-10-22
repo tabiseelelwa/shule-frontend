@@ -1,4 +1,4 @@
-import { FaEdit, FaTrash } from "react-icons/fa";
+import { FaEdit, FaInfoCircle, FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const ListApprenant = () => {
@@ -6,7 +6,7 @@ const ListApprenant = () => {
     <div className="listAppr">
       <div className="head">
         <div className="titre">LES APPRENANTS</div>
-        <div className="filtre">
+        <div className="filtreInscript">
           <select name="" id="">
             <option value="">Tous les élèves</option>
             <option value="">Classe</option>
@@ -15,7 +15,7 @@ const ListApprenant = () => {
             <option value="">Agent</option>
           </select>
         </div>
-        <div className="btnAjout">
+        <div className="btnAjoutInscript">
           <Link to="/caisse/nouv-appr">Ajouter un apprenant</Link>
         </div>
       </div>
@@ -43,6 +43,9 @@ const ListApprenant = () => {
               <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
+              <Link to="modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
+              </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
           </tr>
@@ -56,6 +59,9 @@ const ListApprenant = () => {
             <td>
               <Link to="modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -104,7 +110,7 @@ const ListApprenant = () => {
           </tr>
         </tbody>
       </table>
-      <div className="btnCtrl">
+      <div className="btnCtrlInscript">
         <p className="btnPrecedent">Précédent</p>
         <p className="pageActive">2</p>
         <p className="btnSuivant">Suivant</p>
