@@ -3,24 +3,21 @@ import { Link, Outlet } from "react-router-dom";
 
 const CaisseLayout = () => {
   return (
-    <div className="caisse">
-      <div className="caisseHead">
+    <div className="layout">
+      <div className="layoutHead">
         <div className="userData">
           <div className="img"></div>
         </div>
         <div className="otherData">TABISEELELWA</div>
       </div>
-      <div className="caisseBody">
+      <div className="layoutBody">
         <div className="aside">
           <div className="asideTitle">
             <h5>CAISSE</h5>
           </div>
           <div className="asideButtons">
             <div className="button">
-              <Link to="">Apprenants</Link>
-            </div>
-            <div className="button">
-              <Link to="paiements">Paiements</Link>
+              <Link to="">Paiements</Link>
             </div>
 
             <div className="button">

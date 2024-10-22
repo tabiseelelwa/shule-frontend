@@ -25,6 +25,10 @@ const router = createBrowserRouter([
         element: <ListInscription />,
       },
       {
+        path: "apprenants",
+        element: <ListApprenant />,
+      },
+      {
         path: "nouv-appr",
         element: <CreateApprenant />,
       },
@@ -32,24 +36,28 @@ const router = createBrowserRouter([
         path: "modif-apprenant/:idApprennant",
         element: <ModifEleve />,
       },
+      {
+        path: "profil",
+        element: <Profil />,
+        children: [
+          { path: "", element: <DetailsProfil /> },
+          { path: "modif-profil", element: <ModifProfil /> },
+        ],
+      },
     ],
   },
 
   {
-    path: "/caisse",
+    path: "/caisse/",
     element: <CaisseLayout />,
     children: [
       {
         path: "",
-        element: <ListApprenant />,
+        element: <ListPamient />,
       },
       {
         path: "nouv-paiement",
         element: <CreatePaiement />,
-      },
-      {
-        path: "paiements",
-        element: <ListPamient />,
       },
       {
         path: "modif-paie/:idPaie",
