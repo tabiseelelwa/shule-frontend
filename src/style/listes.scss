@@ -96,6 +96,7 @@
     font-weight: 500;
   }
 }
+
 .btnCtrlInscript {
   display: inline-flex;
   width: 100%;
@@ -121,4 +122,11 @@
     color: #d50a0a;
     font-weight: 500;
   }
+}
+
+.btnAction{
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
 }

@@ -16,7 +16,7 @@ const ListApprenant = () => {
           </select>
         </div>
         <div className="btnAjoutInscript">
-          <Link to="/caisse/nouv-appr">Ajouter un apprenant</Link>
+          <Link to="/nouv-appr">Ajouter un apprenant</Link>
         </div>
       </div>
       <table className="table table-bordered">
@@ -39,11 +39,11 @@ const ListApprenant = () => {
             <td>Léon</td>
             <td>15/03/2023</td>
             <td>+243 822 077 545</td>
-            <td>
-              <Link to="modif-apprenant/idApprenant">
+            <td className="btnAction">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
-              <Link to="modif-apprenant/idApprenant">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -56,11 +56,11 @@ const ListApprenant = () => {
             <td>Léon</td>
             <td>25/03/2023</td>
             <td>+243 978 024 163</td>
-            <td>
-              <Link to="modif-apprenant/idApprenant">
+            <td className="btnAction">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
               </Link>
-              <Link to="modif-apprenant/idApprenant">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
@@ -73,9 +73,12 @@ const ListApprenant = () => {
             <td>Léon</td>
             <td>04/04/2023</td>
             <td>+243 853 664 055</td>
-            <td>
-              <Link to="modif-apprenant/idApprenant">
+            <td className="btnAction">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -87,9 +90,12 @@ const ListApprenant = () => {
             <td>Léon</td>
             <td>12/09/2024</td>
             <td>+243 999 154 397</td>
-            <td>
-              <Link to="modif-apprenant/idApprenant">
+            <td className="btnAction">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -101,9 +107,12 @@ const ListApprenant = () => {
             <td>Léon</td>
             <td>16/10/2024</td>
             <td>+243 999 913 512</td>
-            <td>
-              <Link to="modif-apprenant/idApprenant">
+            <td className="btnAction">
+              <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>

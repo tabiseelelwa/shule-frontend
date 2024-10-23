@@ -18,7 +18,9 @@ const CreateApprenant = () => {
           </select>
           <input type="text" placeholder="Adresse de résidence" />
           <input type="text" placeholder="Téléphone" />
-          <button>Enregistrer</button>
+          <div id="bouton">
+            <button>Enregistrer</button>
+          </div>
         </form>
       </div>
     </div>
