@@ -7,13 +7,7 @@ const ListApprenant = () => {
       <div className="head">
         <div className="titre">LES APPRENANTS</div>
         <div className="filtreInscript">
-          <select name="" id="">
-            <option value="">Tous les élèves</option>
-            <option value="">Classe</option>
-            <option value="">Section</option>
-            <option value="">Elève</option>
-            <option value="">Agent</option>
-          </select>
+          <input type="search" placeholder="Rechercher un élève par son nom" />
         </div>
         <div className="btnAjoutInscript">
           <Link to="/nouv-appr">Ajouter un apprenant</Link>
@@ -26,8 +20,8 @@ const ListApprenant = () => {
             <th>Nom</th>
             <th>Postnom</th>
             <th>Prénom</th>
-            <th>Date inscription</th>
             <th>Téléphone</th>
+            <th>Adresse</th>
             <th></th>
           </tr>
         </thead>
@@ -37,8 +31,8 @@ const ListApprenant = () => {
             <td>TABISEELELWA</td>
             <td>ESUBE</td>
             <td>Léon</td>
-            <td>15/03/2023</td>
             <td>+243 822 077 545</td>
+            <td>26, av. Nguma, q. Joli parc, c. Ngaliema</td>
             <td className="btnAction">
               <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
@@ -54,8 +48,8 @@ const ListApprenant = () => {
             <td>TABISEELELWA</td>
             <td>ESUBE</td>
             <td>Léon</td>
-            <td>25/03/2023</td>
             <td>+243 978 024 163</td>
+            <td>135, av. Nkoyi moke, q. Maman yemo, c. Ngaliema</td>
             <td className="btnAction">
               <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
@@ -71,8 +65,8 @@ const ListApprenant = () => {
             <td>TABISEELELWA</td>
             <td>ESUBE</td>
             <td>Léon</td>
-            <td>04/04/2023</td>
             <td>+243 853 664 055</td>
+            <td>12, av. Mbenseke, q. Basoko, c. Kintambo</td>
             <td className="btnAction">
               <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
@@ -88,8 +82,8 @@ const ListApprenant = () => {
             <td>TABISEELELWA</td>
             <td>ESUBE</td>
             <td>Léon</td>
-            <td>12/09/2024</td>
             <td>+243 999 154 397</td>
+            <td>2573, Blvd 30 jn, Ngaliema</td>
             <td className="btnAction">
               <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />
@@ -105,8 +99,8 @@ const ListApprenant = () => {
             <td>TABISEELELWA</td>
             <td>ESUBE</td>
             <td>Léon</td>
-            <td>16/10/2024</td>
             <td>+243 999 913 512</td>
+            <td>163, av. Colonel Mondjiba, q. Basoko, c. Kintambo</td>
             <td className="btnAction">
               <Link to="/modif-apprenant/idApprenant">
                 <FaEdit style={{ color: "blue" }} />

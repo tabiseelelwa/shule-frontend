@@ -16,8 +16,8 @@ const CreateApprenant = () => {
             <option value="Masculin">Masculin</option>
             <option value="Féminin">Féminin</option>
           </select>
-          <input type="text" placeholder="Adresse de résidence" />
           <input type="text" placeholder="Téléphone" />
+          <input type="text" placeholder="Adresse de résidence" />
           <div id="bouton">
             <button>Enregistrer</button>
           </div>

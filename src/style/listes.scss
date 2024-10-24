@@ -24,13 +24,21 @@
 
   // Pour le layout INSCRIPTION
   .filtreInscript {
-    select {
+    display: flex;
+    gap: 1rem;
+
+    select,
+    input {
       border: 1px #03236d solid;
       color: #03236d;
       outline: none;
-      width: 200px;
-      padding: 0.2rem;
+      width: auto;
+      padding: 0.2rem 0.5rem;
       border-radius: 0.3rem;
+    }
+
+    input {
+      width: 255px;
     }
   }
 
@@ -124,7 +132,7 @@
   }
 }
 
-.btnAction{
+.btnAction {
   display: flex;
   gap: 0.7rem;
   justify-content: center;
