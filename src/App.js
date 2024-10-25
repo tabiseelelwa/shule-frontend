@@ -89,12 +89,20 @@ const router = createBrowserRouter([
         element: <ListApprenant />,
       },
       {
-        path: "inscrptions",
+        path: "inscriptions",
         element: <ListInscription />,
       },
       {
         path: "paiements",
         element: <ListPamient />,
+      },
+      {
+        path: "profil",
+        element: <Profil />,
+        children: [
+          { path: "", element: <DetailsProfil /> },
+          { path: "modif-profil", element: <ModifProfil /> },
+        ],
       },
     ],
   },
