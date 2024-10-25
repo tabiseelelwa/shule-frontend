@@ -6,13 +6,7 @@ const ListPamient = () => {
       <div className="head">
         <div className="titre">LES PAIEMENTS</div>
         <div className="filtre">
-          <select name="" id="">
-            <option value="">Tous les paiements</option>
-            <option value="">Classe</option>
-            <option value="">Section</option>
-            <option value="">Elève</option>
-            <option value="">Agent</option>
-          </select>
+          <input type="search" placeholder="Rechercher" />
         </div>
         <div className="btnAjout">
           <Link to="/caisse/nouv-paiement">Nouveau paiement</Link>

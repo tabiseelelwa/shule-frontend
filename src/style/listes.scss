@@ -12,12 +12,12 @@
   }
 
   .filtre {
-    select {
+    input {
       border: 1px #0a62d5 solid;
       color: #0a62d5;
       outline: none;
-      width: 200px;
-      padding: 0.2rem;
+      width: 255px;
+      padding: 0.2rem 0.5rem;
       border-radius: 0.3rem;
     }
   }
@@ -27,18 +27,13 @@
     display: flex;
     gap: 1rem;
 
-    select,
     input {
       border: 1px #03236d solid;
       color: #03236d;
       outline: none;
-      width: auto;
+      width: 255px;
       padding: 0.2rem 0.5rem;
       border-radius: 0.3rem;
-    }
-
-    input {
-      width: 255px;
     }
   }
 

@@ -14,6 +14,8 @@ import ModifPaiement from "./Pages/Caisse/ModifPaiement";
 import DetailsProfil from "./Pages/Caisse/DetailsProfil";
 import ModifProfil from "./Pages/Caisse/ModifProfil";
 import ListInscription from "./Pages/Inscription/ListInscription";
+import AdminLayout from "./layout/AdminLayout";
+import Administration from "./Pages/Admin/Administration";
 
 const router = createBrowserRouter([
   {
@@ -71,6 +73,28 @@ const router = createBrowserRouter([
           { path: "", element: <DetailsProfil /> },
           { path: "modif-profil", element: <ModifProfil /> },
         ],
+      },
+    ],
+  },
+  {
+    path: "/admin",
+    element: <AdminLayout />,
+    children: [
+      {
+        path: "",
+        element: <Administration />,
+      },
+      {
+        path: "apprenants",
+        element: <ListApprenant />,
+      },
+      {
+        path: "inscrptions",
+        element: <ListInscription />,
+      },
+      {
+        path: "paiements",
+        element: <ListPamient />,
       },
     ],
   },
