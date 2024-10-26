@@ -13,7 +13,7 @@ const AdminLayout = () => {
       <div className="layoutBody">
         <div className="aside">
           <div className="asideTitle">
-            <h5>ADMINISTRATION</h5>
+            <h5>ADMINISTRATEUR</h5>
           </div>
           <ul className="asideButtons">
             <Link to="">
@@ -28,7 +28,7 @@ const AdminLayout = () => {
             <Link to="paiements">
               <li >Paiements</li>
             </Link>
-            <Link to="profil" className="profil">
+            <Link to="profil" id="profil">
               <li>
                 Profil
               </li>

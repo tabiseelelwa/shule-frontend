@@ -62,12 +62,10 @@
     .aside {
       width: 350px;
       background-color: #fff;
-      // padding: 1rem;
       border-radius: 0.8rem;
       height: 400px;
 
       .asideTitleInscript {
-
         h5 {
           background-color: #03236d;
           color: #fff;
@@ -79,8 +77,6 @@
       }
 
       .asideTitle {
-        // text-align: center;
-
         h5 {
           background-color: #2261f3;
           color: #fff;
@@ -91,6 +87,7 @@
       }
 
       .asideButtons {
+        margin-top: 3rem;
         padding: 0 1.5rem;
         display: flex;
         flex-direction: column;
@@ -100,14 +97,17 @@
           color: #000;
           list-style: none;
           text-decoration: none;
-          padding: 0.5rem;
+          padding: 0.5rem 0;
+          border-bottom: 1px solid #ccc;
+          transition: 400ms all ease-in;
+        }
+        #profil {
+          border-bottom: none;
         }
       }
 
       a:hover {
         color: #2261f3;
-        background-color: #eeeded;
-        transition: 400ms all ease-in;
         font-weight: 600;
       }
 

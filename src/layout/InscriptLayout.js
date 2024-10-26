@@ -23,7 +23,7 @@ const InscriptLayout = () => {
               <li to="apprenants">Apprenants</li>
             </Link>
 
-            <Link >
+            <Link id="profil">
               <li to="profil">Profil</li>
             </Link>
           </ul>

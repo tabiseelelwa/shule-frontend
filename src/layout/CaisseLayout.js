@@ -13,14 +13,17 @@ const CaisseLayout = () => {
       <div className="layoutBody">
         <div className="aside">
           <div className="asideTitle">
-            <h5>CAISSE</h5>
+            <h5>CAISSIER</h5>
           </div>
           <ul className="asideButtons">
             <Link className="button">
               <li to="">Paiements</li>
             </Link>
-
             <Link className="button">
+              <li to="">Dépenses</li>
+            </Link>
+
+            <Link className="button" id="profil">
               <li to="profil">Profil</li>
             </Link>
             {/* <button className="button">Déconnexion</button> */}

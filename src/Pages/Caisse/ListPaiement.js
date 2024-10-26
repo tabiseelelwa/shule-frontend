@@ -1,4 +1,4 @@
-import { FaEdit, FaTrash } from "react-icons/fa";
+import { FaEdit, FaInfoCircle, FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const ListPamient = () => {
   return (
@@ -28,9 +28,12 @@ const ListPamient = () => {
             <td>TABISEELELWA ESUBE Léon</td>
             <td>350</td>
             <td>Inscription</td>
-            <td>
+            <td className="btnAction">
               <Link to="/caisse/modif-paie/idPaie">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -40,9 +43,12 @@ const ListPamient = () => {
             <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 1ère Tr.</td>
-            <td>
+            <td className="btnAction">
               <Link to="/caisse/modif-paie/idPaie">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -52,9 +58,12 @@ const ListPamient = () => {
             <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
-            <td>
+            <td className="btnAction">
               <Link to="/caisse/modif-paie/idPaie">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -64,9 +73,12 @@ const ListPamient = () => {
             <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
-            <td>
+            <td className="btnAction">
               <Link to="/caisse/modif-paie/idPaie">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
@@ -76,9 +88,12 @@ const ListPamient = () => {
             <td>TABISEELELWA ESUBE Léon</td>
             <td>150</td>
             <td>Minerval 2ème Tr.</td>
-            <td>
+            <td className="btnAction">
               <Link to="/caisse/modif-paie/idPaie">
                 <FaEdit style={{ color: "blue" }} />
+              </Link>
+              <Link to="/modif-apprenant/idApprenant">
+                <FaInfoCircle style={{ color: "blue" }} />
               </Link>
               <FaTrash style={{ color: "red" }} />
             </td>
