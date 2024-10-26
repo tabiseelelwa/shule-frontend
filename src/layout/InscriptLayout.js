@@ -15,19 +15,18 @@ const InscriptLayout = () => {
           <div className="asideTitleInscript">
             <h5>INSCRIPTIONS</h5>
           </div>
-          <div className="asideButtons">
-            <div className="button">
-              <Link to="">Inscriptions</Link>
-            </div>
-            <div className="button">
-              <Link to="apprenants">Apprenants</Link>
-            </div>
+          <ul className="asideButtons">
+            <Link >
+              <li to="">Inscriptions</li>
+            </Link>
+            <Link >
+              <li to="apprenants">Apprenants</li>
+            </Link>
 
-            <div className="button">
-              <Link to="profil">Profil</Link>
-            </div>
-            <div className="button">Déconnexion</div>
-          </div>
+            <Link >
+              <li to="profil">Profil</li>
+            </Link>
+          </ul>
         </div>
 
         <div className="contenu">

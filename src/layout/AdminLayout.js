@@ -15,24 +15,26 @@ const AdminLayout = () => {
           <div className="asideTitle">
             <h5>ADMINISTRATION</h5>
           </div>
-          <div className="asideButtons">
-            <div className="button">
-              <Link to="">Administration</Link>
-            </div>
-            <div className="button">
-              <Link to="apprenants">Apprenants</Link>
-            </div>
-            <div className="button">
-              <Link to="inscriptions">Inscriptions</Link>
-            </div>
-            <div className="button">
-              <Link to="paiements">Paiements</Link>
-            </div>
-            <div className="button">
-              <Link to="profil">Profil</Link>
-            </div>
-            <div className="button">Déconnexion</div>
-          </div>
+          <ul className="asideButtons">
+            <Link to="">
+              <li>Administration</li>
+            </Link>
+            <Link to="apprenants">
+              <li>Apprenants</li>
+            </Link>
+            <Link to="inscriptions">
+              <li >Inscriptions</li>
+            </Link>
+            <Link to="paiements">
+              <li >Paiements</li>
+            </Link>
+            <Link to="profil" className="profil">
+              <li>
+                Profil
+              </li>
+            </Link>
+            {/* <button>Déconnexion</button> */}
+          </ul>
         </div>
 
         <div className="contenu">
