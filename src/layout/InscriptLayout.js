@@ -19,12 +19,12 @@ const InscriptLayout = () => {
             <Link >
               <li to="">Inscriptions</li>
             </Link>
-            <Link >
-              <li to="apprenants">Apprenants</li>
+            <Link to="apprenants">
+              <li >Apprenants</li>
             </Link>
 
-            <Link id="profil">
-              <li to="profil">Profil</li>
+            <Link to="profil" id="profil">
+              <li >Profil</li>
             </Link>
           </ul>
         </div>

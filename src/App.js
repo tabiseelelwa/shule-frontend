@@ -8,6 +8,7 @@ import InscriptLayout from "./layout/InscriptLayout";
 import Profil from "./Pages/Caisse/profil";
 import Introuvable from "./introuvable";
 import ListPamient from "./Pages/Caisse/ListPaiement";
+import Depenses from "./Pages/Caisse/Depenses";
 import ListApprenant from "./Pages/Inscription/ListApprenant";
 import ModifEleve from "./Pages/Inscription/ModifEleve";
 import ModifPaiement from "./Pages/Caisse/ModifPaiement";
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <ListPamient />,
+      },
+      {
+        path: "depenses",
+        element: <Depenses />,
       },
       {
         path: "nouv-paiement",

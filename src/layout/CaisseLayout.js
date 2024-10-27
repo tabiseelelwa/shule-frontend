@@ -16,15 +16,15 @@ const CaisseLayout = () => {
             <h5>CAISSIER</h5>
           </div>
           <ul className="asideButtons">
-            <Link className="button">
+            <Link>
               <li to="">Paiements</li>
             </Link>
-            <Link className="button">
-              <li to="">Dépenses</li>
+            <Link to="depenses">
+              <li>Dépenses</li>
             </Link>
 
-            <Link className="button" id="profil">
-              <li to="profil">Profil</li>
+            <Link id="profil" to="profil">
+              <li >Profil</li>
             </Link>
             {/* <button className="button">Déconnexion</button> */}
           </ul>
