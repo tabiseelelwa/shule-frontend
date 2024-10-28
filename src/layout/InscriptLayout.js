@@ -16,19 +16,17 @@ const InscriptLayout = () => {
             <h5>INSCRIPTIONS</h5>
           </div>
           <ul className="asideButtons">
-            <Link >
+            <Link>
               <li to="">Inscriptions</li>
             </Link>
             <Link to="apprenants">
-              <li >Apprenants</li>
+              <li>Apprenants</li>
             </Link>
-
             <Link to="profil" id="profil">
-              <li >Profil</li>
+              <li>Profil</li>
             </Link>
           </ul>
         </div>
-
         <div className="contenu">
           <Outlet />
         </div>
