@@ -10,6 +10,7 @@ export default function Login() {
           <label htmlFor="">Mot de passe</label>
           <input type="password" placeholder="Entrez le mot de passe" />
         </div>
+        <button>Connexion</button>
       </form>
     </div>
   );
