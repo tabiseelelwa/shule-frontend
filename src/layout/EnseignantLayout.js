@@ -1,24 +1,31 @@
 import React from "react";
-import { GoBook, GoChecklist, GoNumber, GoPerson } from "react-icons/go";
+import {
+  GoChecklist,
+  GoFileDirectory,
+  GoPerson,
+  GoServer,
+  GoTasklist,
+} from "react-icons/go";
 import { Link, Outlet } from "react-router-dom";
 
-const CaisseLayout = () => {
+const EnseignantLayout = () => {
   return (
     <div className="layout">
       <div className="aside">
         <div className="asideButtons">
-          <Link to="">
-            <GoNumber /> Paiements
+          <Link to="nom/tabiseelelwa">
+            <GoTasklist /> Côtation
           </Link>
-          <Link to="depenses">
-            <GoBook />
-            Dépenses
+          <Link to="ma-classe">
+            <GoServer /> Ma classe
+          </Link>
+          <Link to="prepa-matieres">
+            <GoFileDirectory /> Préparation
           </Link>
           <Link to="rapports">
-            <GoChecklist />
-            Rapports
+            <GoChecklist /> Rapports
           </Link>
-          <Link id="profil" to="profil">
+          <Link to="profil" id="profil">
             <GoPerson />
             Profil
           </Link>
@@ -40,4 +47,4 @@ const CaisseLayout = () => {
   );
 };
 
-export default CaisseLayout;
+export default EnseignantLayout;

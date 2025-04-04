@@ -1,29 +1,17 @@
 .head {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   align-items: center;
+  padding: 0.5rem 0;
 
   .titre {
     background-color: #f1f1f1;
     padding: 0.4rem 0.7rem;
-    border-radius: 0.3rem;
   }
 
   .filtre {
-    input {
-      border: 1px #0a62d5 solid;
-      color: #0a62d5;
-      outline: none;
-      width: 255px;
-      padding: 0.2rem 0.5rem;
-      border-radius: 0.3rem;
-    }
-  }
-
-  // Pour le layout INSCRIPTION
-  .filtreInscript {
     display: flex;
     gap: 1rem;
 
@@ -31,81 +19,54 @@
       border: 1px #03236d solid;
       color: #03236d;
       outline: none;
-      width: 255px;
+      width: 450px;
       padding: 0.2rem 0.5rem;
-      border-radius: 0.3rem;
     }
   }
 
-  .btnAjoutInscript {
-    a {
+  .btnAjout {
+    button {
       text-decoration: none;
       background-color: #03236d;
       color: #fff;
       padding: 0.4rem 0.6rem;
-      border-radius: 0.3rem;
       border: 1px #03236d solid;
     }
 
-    a:hover {
-      background-color: transparent;
-      color: #03236d;
-      transition: 300ms;
-    }
-  }
-
-  // Pour le layout CAISSE
-  .btnAjout {
-    a {
-      text-decoration: none;
-      background-color: #0a62d5;
+    button:hover {
+      background-color: #0333a3;
       color: #fff;
-      padding: 0.4rem 0.6rem;
-      border-radius: 0.3rem;
-      border: 1px #0a62d5 solid;
-    }
-
-    a:hover {
-      background-color: transparent;
-      color: #0a62d5;
       transition: 300ms;
     }
   }
+}
+
+.btnAction {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    border: transparent;
+    background-color: transparent;
+  }
+}
+
+.tableau-body {
+  overflow: scroll;
+  height: 540px;
+  border: 1px solid #03236d;
+  font-size: 14px;
 }
 
 .btnCtrl {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   justify-content: flex-end;
   gap: 1rem;
-  align-items: center;
-
-  .btnPrecedent,
-  .btnSuivant {
-    color: #4690f2;
-    font-weight: 600;
-    border: transparent;
-    cursor: default;
-  }
-
-  .btnPrecedent:hover,
-  .btnSuivant:hover {
-    color: #0953b5;
-    transition: 300ms;
-  }
-
-  .pageActive {
-    color: #d50a0a;
-    font-weight: 500;
-  }
-}
-
-.btnCtrlInscript {
-  display: inline-flex;
-  width: 100%;
-  justify-content: flex-end;
-  gap: 1rem;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 1rem;
 
   .btnPrecedent,
   .btnSuivant {
@@ -117,7 +78,7 @@
 
   .btnPrecedent:hover,
   .btnSuivant:hover {
-    color: #1c4fc5;
+    color: #03236d;
     transition: 300ms;
   }
 
@@ -127,9 +88,20 @@
   }
 }
 
-.btnAction {
-  display: flex;
-  gap: 0.7rem;
-  justify-content: center;
-  align-items: center;
+.tableau-body-accueil-admin {
+  overflow: scroll;
+  height: 450px;
+  border: 2px solid #03236d;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #03236d;
+  border-radius: 0.2rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #be0101;
 }

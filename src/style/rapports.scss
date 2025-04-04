@@ -1,0 +1,24 @@
+.rapportContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+
+  a {
+    text-decoration: none;
+    background-color: #c6e2fb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 350ms;
+  }
+
+  a:hover {
+    background-color: #9fd1fc;
+  }
+
+  .rapportItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

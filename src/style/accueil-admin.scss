@@ -1,0 +1,36 @@
+.accueil-admin {
+  margin-top: 1.5rem;
+
+  .title-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03236d;
+    border: 1px solid #03236d;
+
+    span {
+      color: #fff;
+      padding: 0.4rem;
+      width: 200px;
+    }
+
+    button {
+      border: 2px solid #fff;
+      background-color: #fff;
+      color: #03236d;
+      padding: 0.25rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all ease-in-out 100ms;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0.2rem;
+    }
+  }
+}
+.adminAccueilWrapper {
+  padding: 0.2rem;
+  overflow-y: scroll;
+  height: 410px;
+}

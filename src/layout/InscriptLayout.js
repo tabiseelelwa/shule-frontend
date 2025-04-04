@@ -1,32 +1,37 @@
 import { Link, Outlet } from "react-router-dom";
 import React from "react";
+import { GoMortarBoard, GoChecklist, GoPencil, GoPerson } from "react-icons/go";
 
 const InscriptLayout = () => {
   return (
     <div className="layout">
-      <div className="layoutHeadInscript">
-        <div className="userData">
-          <div className="img"></div>
+      <div className="aside">
+        <div className="asideButtons">
+          <Link to="">
+            <GoPencil /> Inscriptions
+          </Link>
+          <Link to="apprenants">
+            <GoMortarBoard />
+            Apprenants
+          </Link>
+          <Link to="rapports">
+            <GoChecklist />
+            Rapports
+          </Link>
+          <Link to="profil" id="profil">
+            <GoPerson />
+            Profil
+          </Link>
         </div>
-        <div className="otherData">TABISEELELWA</div>
       </div>
       <div className="layoutBody">
-        <div className="aside">
-          <div className="asideTitleInscript">
-            <h5>INSCRIPTIONS</h5>
+        <div className="layoutHead">
+          <div className="userData">
+            <div className="img"></div>
           </div>
-          <ul className="asideButtons">
-            <Link>
-              <li to="">Inscriptions</li>
-            </Link>
-            <Link to="apprenants">
-              <li>Apprenants</li>
-            </Link>
-            <Link to="profil" id="profil">
-              <li>Profil</li>
-            </Link>
-          </ul>
+          <div className="otherData">TABISEELELWA</div>
         </div>
+
         <div className="contenu">
           <Outlet />
         </div>

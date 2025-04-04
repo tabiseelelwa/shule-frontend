@@ -1,0 +1,121 @@
+.listMenuAdim {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+
+  a,
+  div {
+    text-decoration: none;
+
+    .MenuAdmin {
+      padding: 0.5rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      border-radius: 0.2rem;
+      height: 70px;
+
+      .titre_MenuAdmin {
+        color: #041198;
+        font-weight: 780;
+        width: 40px;
+        border-radius: 0.25rem;
+      }
+
+      .btnCoter {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px transparent;
+          background: transparent;
+          letter-spacing: 3px;
+          border-radius: 0.25rem;
+          padding: 5px 10px;
+          background: #f3f3f3;
+        }
+
+        button:hover {
+          font-weight: 650;
+          transition: 400ms;
+          background: #d1d1d0e1;
+        }
+      }
+    }
+
+    .MenuAdmin:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: 400ms;
+      background-color: #041198;
+      color: #fff !important;
+
+      .titre_MenuAdmin {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.listcours {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  a,
+  div {
+    text-decoration: none;
+
+    .cours {
+      padding: 1.25rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      border-radius: 0.5rem;
+      width: 155px;
+      height: 110px;
+
+      .titre_cours {
+        color: #041198;
+      }
+
+      .btnCoter {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px transparent;
+          background: transparent;
+          letter-spacing: 3px;
+          border-radius: 0.25rem;
+          padding: 5px 10px;
+          background: #f3f3f3;
+        }
+
+        button:hover {
+          font-weight: 650;
+          transition: 400ms;
+          background-color: #041198;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .cours:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: all ease-in-out 400ms;
+      background-color: #041198;
+      color: #fff;
+
+      .titre_cours {
+        color: #fff;
+      }
+    }
+  }
+}

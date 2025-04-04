@@ -1,40 +1,52 @@
 import React from "react";
+import {
+  GoBook,
+  GoBriefcase,
+  GoMortarBoard,
+  GoNumber,
+  GoPencil,
+  GoPerson,
+} from "react-icons/go";
 import { Link, Outlet } from "react-router-dom";
 
 const AdminLayout = () => {
   return (
     <div className="layout">
-      <div className="layoutHead">
-        <div className="userData">
-          <div className="img"></div>
+      <div className="aside">
+        <div className="asideTitle">
+          <h5>ADMINISTRATEUR</h5>
         </div>
-        <div className="otherData">TABISEELELWA</div>
+        <div className="asideButtons">
+          <Link to="">
+            <GoBriefcase /> Administration
+          </Link>
+          <Link to="apprenants">
+            <GoMortarBoard />
+            Apprenants
+          </Link>
+          <Link to="inscriptions">
+            <GoPencil />
+            Inscriptions
+          </Link>
+          <Link to="paiements">
+            <GoNumber /> Paiements
+          </Link>
+          <Link to="depenses">
+            <GoBook /> Dépenses
+          </Link>
+          <Link to="profil" id="profil">
+            <GoPerson />
+            Profil
+          </Link>
+        </div>
       </div>
+
       <div className="layoutBody">
-        <div className="aside">
-          <div className="asideTitle">
-            <h5>ADMINISTRATEUR</h5>
+        <div className="layoutHead">
+          <div className="userData">
+            <div className="img"></div>
           </div>
-          <ul className="asideButtons">
-            <Link to="">
-              <li>Administration</li>
-            </Link>
-            <Link to="apprenants">
-              <li>Apprenants</li>
-            </Link>
-            <Link to="inscriptions">
-              <li >Inscriptions</li>
-            </Link>
-            <Link to="paiements">
-              <li >Paiements</li>
-            </Link>
-            <Link to="profil" id="profil">
-              <li>
-                Profil
-              </li>
-            </Link>
-            {/* <button>Déconnexion</button> */}
-          </ul>
+          <div className="userName">TABISEELELWA</div>
         </div>
 
         <div className="contenu">

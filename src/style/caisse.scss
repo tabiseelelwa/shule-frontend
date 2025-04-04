@@ -1,132 +1,102 @@
 .layout {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 2rem 10rem;
   width: 100vw;
   height: 100vh;
   background-color: #f5f3f9;
 
-  // Pour le layout INSCRIPTION
-  .layoutHeadInscript {
+  .aside {
+    padding-top: 6.5rem;
+    height: 100vh;
+    width: 380px;
     background-color: #03236d;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: 0 3rem;
-    border-radius: 1rem;
 
-    .userData {
-      border-radius: 50%;
-      border: 2px solid;
-      .img {
-        height: 100px;
-        width: 100px;
-        padding: 0.53rem;
-        border-radius: 50%;
+    .asideTitle {
+      h5 {
+        color: #fff;
+        padding: 0.8rem 2rem;
       }
     }
-  }
 
-  // Pour le layout CAISSE
-  .layoutHead {
-    background-color: #2261f3;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: 0 3rem;
-    border-radius: 1rem;
+    .asideButtons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
 
-    .userData {
-      border-radius: 50%;
-      border: 2px solid;
-      .img {
-        height: 100px;
-        width: 100px;
-        padding: 0.53rem;
-        border-radius: 50%;
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        color: #fff;
+        font-weight: 600;
+        list-style: none;
+        text-decoration: none;
+        padding: 0.5rem 0;
+        transition: 300ms all ease-in;
+        padding: 0.8rem 2rem;
       }
+      #profil {
+        border-bottom: none;
+      }
+    }
+
+    a:hover {
+      color: #03236d;
+      background-color: #fff;
+    }
+
+    button {
+      margin-top: 2rem;
+      background-color: #f4cbcb;
+      color: #920a0a;
+      border: 2px #920a0a solid;
+      padding: 0.4rem;
+      font-size: 14pt;
+      font-weight: 600;
+      border-radius: 0.2rem;
     }
   }
 
   .layoutBody {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh !important;
 
-    .aside {
-      width: 350px;
-      background-color: #fff;
-      border-radius: 0.8rem;
-      height: 400px;
+    .layoutHead {
+      background-color: #cfd3da;
+      height: 70px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #03236d;
+      padding: 0.5rem 3rem;
+      border-bottom: 2px solid #03236d;
 
-      .asideTitleInscript {
-        h5 {
-          background-color: #03236d;
-          color: #fff;
-          padding: 0.5rem;
-          padding: 0.5rem 1rem;
-          border-top-left-radius: 0.8rem;
-          border-top-right-radius: 0.8rem;
+      .userData {
+        border-radius: 50%;
+        border: 2px solid;
+
+        .img {
+          height: 50px;
+          width: 50px;
+          padding: 0.53rem;
+          border-radius: 50%;
         }
       }
 
-      .asideTitle {
-        h5 {
-          background-color: #2261f3;
-          color: #fff;
-          padding: 0.5rem 1rem;
-          border-top-left-radius: 0.8rem;
-          border-top-right-radius: 0.8rem;
-        }
-      }
-
-      .asideButtons {
-        margin-top: 3rem;
-        padding: 0 1.5rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0.3rem;
-
-        a {
-          color: #000;
-          list-style: none;
-          text-decoration: none;
-          padding: 0.5rem 0;
-          border-bottom: 1px solid #ccc;
-          transition: 300ms all ease-in;
-        }
-        #profil {
-          border-bottom: none;
-        }
-      }
-
-      a:hover {
-        color: #2261f3;
-      }
-
-      button {
-        margin-top: 2rem;
-        background-color: #f4cbcb;
-        color: #920a0a;
-        border: 2px #920a0a solid;
-        padding: 0.4rem;
-        font-size: 14pt;
+      .userName {
         font-weight: 600;
-        border-radius: 0.2rem;
+        font-size: 20px;
       }
     }
 
     .contenu {
+      display: grid;
       background-color: #fff;
-      border-radius: 1.5rem;
       width: 100%;
-      padding: 1.27rem 1rem;
+      height: 100%;
+      padding: 0.5rem 1rem;
     }
   }
 }
